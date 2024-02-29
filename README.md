@@ -1,30 +1,109 @@
-# React + TypeScript + Vite
+<div align="center" style="text-align: center;">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## My portfolio
+<!-- ![image of portfolio page](./TODO.png) -->
 
-Currently, two official plugins are available:
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br>
 
-## Expanding the ESLint configuration
+- **[Development](#development)**
+- **[Featured projects](#featured-projects)**
+  - [JokeAPI](#jokeapi) <img width="18px" height="18px" alt="TypeScript" title="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" /> <img width="18px" height="18px" alt="React" title="React" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> <img width="18px" height="18px" alt="Material UI" title="Material UI" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" /> <img width="18px" height="18px" alt="Docusaurus" title="Docusaurus" src="https://raw.githubusercontent.com/facebook/docusaurus/main/website/static/img/docusaurus.svg" /> <img width="18px" height="18px" alt="Markdown" title="Markdown" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg" /> <img width="18px" height="18px" alt="vite" title="vite" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" /> <img width="18px" height="18px" alt="Docker" title="Docker" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" /> <img width="18px" height="18px" alt="nginx" title="nginx" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" /> <img width="18px" height="18px" alt="Cloudflare" title="Cloudflare" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cloudflare/cloudflare-original.svg" /> <img width="18px" height="18px" alt="GitHub Actions" title="GitHub Actions" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" /><br>REST API that serves jokes in various formats, such as JSON, XML, and YAML. It also provides a web interface for users to interact with the API.
+  - [BrewBot](#brewbot) <img width="18px" height="18px" alt="TypeScript" title="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" /> <img width="18px" height="18px" alt="Discord.js" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/discordjs/discordjs-original.svg" /> <img width="18px" height="18px" alt="Prisma" title="Prisma" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prisma/prisma-original.svg" /> <img width="18px" height="18px" alt="PostgreSQL" title="PostgreSQL" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" /> <img width="18px" height="18px" alt="GitHub Actions" title="GitHub Actions" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" /><br>General-purpose Discord bot with a focus on moderation, utility and games
+  - [BetterYTM](#betterytm) <img width="18px" height="18px" alt="TypeScript" title="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" /> <img width="18px" height="18px" alt="HTML" title="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" /> <img width="18px" height="18px" alt="CSS" title="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" /> <img width="18px" height="18px" alt="Rollup" title="Rollup" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rollup/rollup-original.svg" /> <img width="18px" height="18px" alt="Markdown" title="Markdown" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg" /> <img width="18px" height="18px" alt="GitHub Actions" title="GitHub Actions" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" /><br>Userscript that improves YouTube Music with features such as improved lyrics lookup, fine volume control and lots more layout and usability improvements
+  - [UserUtils](#userutils) <img width="18px" height="18px" alt="TypeScript" title="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" /> <img width="18px" height="18px" alt="Markdown" title="Markdown" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg" /> <img width="18px" height="18px" alt="GitHub Actions" title="GitHub Actions" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" /><br>Zero-dependency library with tons of utilities for userscripts
+  - [geniURL](#geniurl) <img width="18px" height="18px" alt="TypeScript" title="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" /> <img width="18px" height="18px" alt="express" title="express" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" /> <img width="18px" height="18px" alt="axios" title="axios" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/axios/axios-plain.svg" /> <img width="18px" height="18px" alt="Postman" title="Postman" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" /> <img width="18px" height="18px" alt="Markdown" title="Markdown" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/markdown/markdown-original.svg" /> <img width="18px" height="18px" alt="nginx" title="nginx" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" /> <img width="18px" height="18px" alt="Cloudflare" title="Cloudflare" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cloudflare/cloudflare-original.svg" /> <img width="18px" height="18px" alt="GitHub Actions" title="GitHub Actions" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" /><br>Simple JSON and XML REST API to search for song metadata and lyrics
+  - [Townly & Teng](#townly-teng) <img width="18px" height="18px" alt="TypeScript" title="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" /><br>TS CLI city building game and an accompanying game engine
+  - [React, TS, MUI, Three.js, Electron Template](https://github.com/Sv443/React-Three-Electron-Template) <img width="18px" height="18px" alt="TypeScript" title="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" /> <img width="18px" height="18px" alt="React" title="React" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> <img width="18px" height="18px" alt="Material UI" title="Material UI" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" /> <img width="18px" height="18px" alt="Three.js" title="Three.js" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/threejs/threejs-original.svg" /> <img width="18px" height="18px" alt="Electron" title="Electron" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" /> <img width="18px" height="18px" alt="vite" title="vite" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" /><br>Template project for desktop (/ website hybrid) app games and simulations
+  - [SvCoreLib](#svcorelib) <img width="18px" height="18px" alt="JS" title="JS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" /><br>Zero-dependency library with tons of miscellaneous quality of life features
+  - [sv443.net](#sv443-net) <img width="18px" height="18px" alt="HTML" title="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" /> <img width="18px" height="18px" alt="JS" title="JS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" /> <img width="18px" height="18px" alt="CSS" title="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" /><br>My personal website and old portfolio
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<br><br>
 
-- Configure the top-level `parserOptions` property like this:
+## Featured projects
+<h3 id="jokeapi-documentation"><img src="./public/jokeapi3.png" width="20px" height="20px" /> JokeAPI • <a href="https://github.com/Sv443-Network/JokeAPI-Docs" rel="noopener noreferer" target="_blank">https://github.com/Sv443-Network/JokeAPI-Docs</a></h3>
+A RESTful API that serves jokes in various formats, such as JSON, XML, and YAML. It also provides a crude web interface for users to interact with the API.  
+Its frontend contains a full documentation, including examples and a playground to test the API.  
+  
+- JokeAPI is currently being remade for its upcoming major update, including a new frontend using Docusaurus, TypeScript and React
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<br>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h3 id="brewbot"><img src="./public/brewbot.png" width="20px" height="20px" /> BrewBot • <a href="https://github.com/codedrunks/BrewBot" rel="noopener noreferer" target="_blank">https://github.com/codedrunks/BrewBot</a></h3>
+A general-purpose Discord bot with a focus on moderation, utility and games.  
+  
+- It is written in TypeScript, uses Prisma as its ORM and PostgreSQL as its database
+- Has many API integrations, including [JokeAPI](#jokeapi), and [geniURL](#geniurl)
+- Contains games rendered on a HTML5 canvas
+- Works with the latest Discord API standards (slash commands) and latest features (modal form, button rows, etc.)
+
+<br>
+
+<h3 id="betterytm"><img src="./public/betterytm.png" width="20px" height="20px" /> BetterYTM • <a href="https://github.com/Sv443/BetterYTM" rel="noopener noreferer" target="_blank">https://github.com/Sv443/BetterYTM</a></h3>
+A userscript that improves YouTube Music with features such as improved lyrics lookup, fine volume control and lots more layout and usability improvements.  
+(Userscripts are scripts that run in the browser and modify the behavior of a website, kind of like a less-powerful browser extension)  
+  
+- BetterYTM has frontends made in pure HTML, CSS and JS, to stay in bundle size limits and to not hog resources
+- It is used by about a hundred people weekly
+- The userscript has support for plugins made by other developers
+- I learned using every bundler under the sun for this project (webpack, turbopack, vite, babel) and ended up using rollup
+
+<br>
+
+<h3 id="userutils">UserUtils • <a href="https://github.com/Sv443-Network/UserUtils" rel="noopener noreferer" target="_blank">https://github.com/Sv443-Network/UserUtils</a></h3>
+Zero-dependency library with various utilities for userscripts.  
+Allows userscripts to easily register listeners for when CSS selectors exist, intercept events, manage persistent user configurations, modify the DOM more easily and more.  
+  
+- Contains builtin TypeScript declarations
+- Fully web compatible and supports ESM and CJS imports and global declarations
+- Bundled and compiled using tsc and tsup, CI&CD using GitHub actions and changesets
+- Used in my userscripts [BetterYTM](#betterytm) and my [webpack TypeScript template for userscripts](https://github.com/Sv443/Userscript.ts)
+
+<br>
+
+<h3 id="geniurl">geniURL • <a href="https://api.sv443.net/geniurl" rel="noopener noreferer" target="_blank">https://api.sv443.net/geniurl</a></h3>
+A simple JSON and XML REST API to search for song metadata, the lyrics URL and lyrics translations using the genius.com API.  
+Authorization is not required and geniURL implements a fuzzy search that improves search result accuracy.  
+  
+- My first exposure to express, express-router and Fuse.js
+- Used a couple hundred times daily (mostly due to my userscript [BetterYTM](#betterytm))
+
+<br>
+
+<h3 id="townly-teng"><img src="./public/townly.png" width="20px" height="20px" /> Townly & Teng • <a href="https://github.com/Sv443/Townly" rel="noopener noreferer" target="_blank">https://github.com/Sv443/Townly</a> & <a href="https://github.com/Sv443/Teng" rel="noopener noreferer" target="_blank">https://github.com/Sv443/Teng</a></h3>
+Townly was meant to be a CLI city building game and Teng is the CLI game engine that was powering it.  
+The projects were my first exposure to TypeScript and the first time I used it in a real project.  
+  
+- I got really far feature-wise but lost interest in the project and it was eventually paused
+- The engine was designed to be modular, separated from the game Townly, and easy to use, but it was never used in another project
+- The game has had a history of rewrites, from JS to Qt C++ to TypeScript
+
+<br>
+
+<h3 id="svcorelib"><img src="./public/svcorelib.png" width="20px" height="20px" /> SvCoreLib • <a href="https://github.com/Sv443-Network/SvCoreLib" rel="noopener noreferer" target="_blank">https://github.com/Sv443-Network/SvCoreLib</a></h3>
+A core library used oftentimes in my projects, containing tons of miscellaneous quality of life features.  
+It is written in JavaScript but has a TypeScript declaration file and JSDoc comments for an equivalent TypeScript experience.  
+  
+- My first experience making a decent JS library
+- Received contributions from other developers
+- Only ever supported CommonJS, though a refactor is planned
+
+<br>
+
+<h3 id="sv443-net"><img src="./public/sv443network.png" width="20px" height="20px" /> sv443.net • <a href="https://sv443.net" rel="noopener noreferer" target="_blank">https://sv443.net</a></h3>
+My personal website and old portfolio.  
+It is a static website built with pure HTML, CSS and JS, to stay simplistic and fast.  
+  
+- It was built to be accessible and responsive and to list all my projects and skills in a clean and organized way
+- This new portfolio page repo supersedes it
+
+<br><br>
+
+## Development
+To set up the project locally, follow the steps below:
+1. Install Node.js
+2. Fork (if contributing) and clone the repository
+3. Install the dependencies with the command `npm i`
+4. Copy the file `.env.template` to `.env` and fill in the environment variables
+5. Run the development server with the command `npm run dev`
