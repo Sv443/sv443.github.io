@@ -17,7 +17,7 @@
   - [Townly & Teng](#townly-teng) <img width="18px" height="18px" alt="TypeScript" title="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" /><br>TS CLI city building game and an accompanying game engine
   - [React, TS, MUI, Three.js, Electron Template](https://github.com/Sv443/React-Three-Electron-Template) <img width="18px" height="18px" alt="TypeScript" title="TypeScript" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" /> <img width="18px" height="18px" alt="React" title="React" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" /> <img width="18px" height="18px" alt="Material UI" title="Material UI" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg" /> <img width="18px" height="18px" alt="Three.js" title="Three.js" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/threejs/threejs-original.svg" /> <img width="18px" height="18px" alt="Electron" title="Electron" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" /> <img width="18px" height="18px" alt="vite" title="vite" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg" /><br>Template project for desktop (/ website hybrid) app games and simulations
   - [SvCoreLib](#svcorelib) <img width="18px" height="18px" alt="JS" title="JS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" /><br>Zero-dependency library with tons of miscellaneous quality of life features
-  - [sv443.net](#sv443-net) <img width="18px" height="18px" alt="HTML" title="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" /> <img width="18px" height="18px" alt="JS" title="JS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" /> <img width="18px" height="18px" alt="CSS" title="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" /><br>My personal website and old portfolio
+  - [Sv443 Network Homepage](#sv443-network-homepage) <img width="18px" height="18px" alt="HTML" title="HTML" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" /> <img width="18px" height="18px" alt="JS" title="JS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" /> <img width="18px" height="18px" alt="CSS" title="CSS" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" /><br>My organization's website and my old portfolio
 
 <br><br>
 
@@ -91,8 +91,8 @@ It is written in JavaScript but has a TypeScript declaration file and JSDoc comm
 
 <br>
 
-<h3 id="sv443-net"><img src="./public/sv443network.png" width="20px" height="20px" /> sv443.net • <a href="https://sv443.net" rel="noopener noreferer" target="_blank">https://sv443.net</a></h3>
-My personal website and old portfolio.  
+<h3 id="sv443-network-homepage"><img src="./public/sv443network.png" width="20px" height="20px" /> Sv443 Network Homepage • <a href="https://sv443.net" rel="noopener noreferer" target="_blank">https://sv443.net</a></h3>
+My organization's website and my old portfolio.  
 It is a static website built with pure HTML, CSS and JS, to stay simplistic and fast.  
   
 - It was built to be accessible and responsive and to list all my projects and skills in a clean and organized way
@@ -106,4 +106,7 @@ To set up the project locally, follow the steps below:
 2. Fork (if contributing) and clone the repository
 3. Install the dependencies with the command `npm i`
 4. Copy the file `.env.template` to `.env` and fill in the environment variables
-5. Run the development server with the command `npm run dev`
+  
+- Run the development server with the command `npm run dev`
+- Run `npm run build` to build the project for production
+- Run `npm run storybook` to start the Storybook server, which is used to develop and test the components in isolation
