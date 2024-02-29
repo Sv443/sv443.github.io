@@ -110,3 +110,4 @@ To set up the project locally, follow the steps below:
 - Run the development server with the command `npm run dev`
 - Run `npm run build` to build the project for production
 - Run `npm run storybook` to start the Storybook server, which is used to develop and test the components in isolation
+- To add shadcn components to the project, use `npx shadcn-ui@latest add name`
