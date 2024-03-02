@@ -22,10 +22,28 @@ export function ImageStack({ images }: ImageStackProps) {
     [images, imgIndex],
   );
 
+  const indicatorElem = useMemo(
+    () => (
+      <div>
+        {images.map((_, index) => (
+          <span
+            key={index}
+            onClick={() => setImgIndex(index)}
+            style={{ cursor: "pointer" }}
+          >
+            {index === imgIndex ? "●" : "○"}
+          </span>
+        ))}
+      </div>
+    ),
+    [images, imgIndex],
+  );
+
   return (
     <div>
       <button onClick={imgLeft}>{"<"}</button>
       {imgElem}
+      {indicatorElem}
       <button onClick={imgRight}>{">"}</button>
     </div>
   );
