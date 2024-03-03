@@ -1,9 +1,9 @@
 name: Build and deploy to GH Pages
 
 on:
+  workflow_dispatch:
   push:
     branches: ["main"]
-  workflow_dispatch:
 
 permissions:
   contents: read
@@ -42,10 +42,9 @@ jobs:
         with:
           name: dist
           path: dist
-      - name: Deploy to GH Pages from cache
-        uses: actions/deploy-pages@v4
+      - name: Deploy to GH Pages
+        uses: peaceiris/actions-gh-pages@v3
         id: deployment
         with:
-          artifact_name: dist
-          error_count: 5
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
