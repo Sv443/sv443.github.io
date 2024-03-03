@@ -1,0 +1,15 @@
+Allow: /
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.bmp$
+Disallow: /*.tiff$
+Disallow: /*.svg$
+Disallow: /*.ico$
+Disallow: /*.webp$
+Disallow: /*.pdf$
+Disallow: /*.doc$
+Disallow: /*.docx$
+Disallow: /*.xls$
+Disallow: /*.xlsx$
