@@ -8,7 +8,9 @@ on:
 permissions:
   pull-requests: write
   issues: write
-  repository-projects: write
+  actions: write
+  deployments: write
+  contents: write
 
 concurrency:
   group: "pages"
