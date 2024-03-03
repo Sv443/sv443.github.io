@@ -6,9 +6,9 @@ on:
     branches: ["main"]
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  pull-requests: write
+  issues: write
+  repository-projects: write
 
 concurrency:
   group: "pages"
