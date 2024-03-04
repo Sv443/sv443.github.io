@@ -1,11 +1,18 @@
 import type { Theme } from "@/types";
-import { createContext, useContext, useEffect, useState } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  type ProviderProps,
+  type ReactNode,
+} from "react";
 
 type ThemeProviderProps = {
-  children: React.ReactNode;
+  children: ReactNode;
   defaultTheme?: Theme;
   storageKey?: string;
-};
+} & Omit<ProviderProps<ThemeProviderState>, "value">;
 
 type ThemeProviderState = {
   theme: Theme;
@@ -26,7 +33,7 @@ export function ThemeProvider({
   ...props
 }: ThemeProviderProps) {
   const [theme, setTheme] = useState<Theme>(
-    () => (localStorage.getItem(storageKey) as Theme) || defaultTheme,
+    (localStorage.getItem(storageKey) as Theme) ?? defaultTheme,
   );
 
   useEffect(() => {
@@ -50,8 +57,8 @@ export function ThemeProvider({
   const value = {
     theme,
     setTheme: (theme: Theme) => {
-      localStorage.setItem(storageKey, theme);
       setTheme(theme);
+      localStorage.setItem(storageKey, theme);
     },
   };
 
