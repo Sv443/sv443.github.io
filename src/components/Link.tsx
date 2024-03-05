@@ -3,34 +3,42 @@ import { useState, type HTMLProps, type ReactNode, useEffect } from "react";
 type LinkProps = {
   href: string;
   title?: string;
+  errorContent?: ReactNode;
   children: ReactNode;
 } & HTMLProps<HTMLAnchorElement>;
 
-export function Link({ href, title, children, ...rest }: LinkProps) {
-  const [hrefReal, setHrefReal] = useState<string | undefined>(href);
+export function Link({
+  href: hrefParam,
+  title,
+  children,
+  errorContent,
+  ...rest
+}: LinkProps) {
+  const [href, setHref] = useState<string | undefined>(hrefParam);
 
   useEffect(() => {
     try {
-      new URL(href);
+      new URL(hrefParam);
     } catch {
-      setHrefReal(undefined);
+      setHref(undefined);
     }
-  }, [href]);
+  }, [hrefParam]);
 
-  return hrefReal ? (
+  return href ? (
     <a
       {...{
-        href: hrefReal,
+        href: href,
         rel: "noopener noreferrer",
         title,
         ariaLabel: title,
         role: "link",
+        tabIndex: 0,
         ...rest,
       }}
     >
       {children}
     </a>
   ) : (
-    <span>{href}</span>
+    errorContent ?? <span>{href}</span>
   );
 }

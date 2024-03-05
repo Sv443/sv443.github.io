@@ -26,11 +26,6 @@ module.exports = {
     "eol-last": ["error", "always"],
     "no-async-promise-executor": "off",
     "no-cond-assign": "off",
-    indent: [
-      "error",
-      2,
-      { ignoredNodes: ["VariableDeclaration[declarations.length=0]"] },
-    ],
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-unused-vars": [
       "warn",
