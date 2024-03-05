@@ -1,7 +1,7 @@
-import { createBrowserRouter } from "react-router-dom";
+import type { RouteObject } from "react-router-dom";
 import { Home, Imprint } from "./pages";
 
-export const router = createBrowserRouter([
+export const routes: RouteObject[] = [
   {
     path: "/",
     element: <Home />,
@@ -10,4 +10,4 @@ export const router = createBrowserRouter([
     path: "imprint",
     element: <Imprint />,
   },
-]);
+];

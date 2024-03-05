@@ -1,6 +1,6 @@
 export function Home() {
   return (
-    <></>
+    <div>Home</div>
     // <Avatar className="w-1 h-1">
     //   <AvatarImage
     //     className="w-1 h-1"
