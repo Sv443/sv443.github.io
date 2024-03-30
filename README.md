@@ -1,7 +1,7 @@
 <div align="center" style="text-align: center;">
 
 ## My portfolio
-### [open it here](https://about.sv443.me/)
+### [open it here](https://www.sv443.me/)
 <!-- ![image of portfolio page](./TODO.png) -->
 
 </div>
