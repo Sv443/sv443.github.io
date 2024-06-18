@@ -1,3 +1,6 @@
+# Warning: Non-bot activity detected!
+# UCAV dispatched to your location, please stand by. Resistance is futile.
+
 Allow: /
 Disallow: /*.jpg$
 Disallow: /*.jpeg$
